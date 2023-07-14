@@ -1,0 +1,52 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    font-size: 30px;
+    background-color: darkblue;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.container {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 0 80px 60px 80px;
+    border-radius: 20px;
+}
+.container > img {
+    width: 250px;
+    transition: width 0.3s ease-in-out;
+}
+h1 {
+    color: #000;
+}
+#numberofplayer {
+    color:lawngreen;
+}
+#increaseBtn {
+    padding: 15px 55px;
+    border: none;
+    background-color: chartreuse;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+#restbtn {
+    padding: 18px 10px;
+    border-radius: 100%;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.thumbnail {
+    width: 200px;
+    height: auto;
+  }
